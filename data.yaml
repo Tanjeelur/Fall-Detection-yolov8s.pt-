@@ -1,0 +1,13 @@
+train: G:\Fall-Detection-main2\Fall-Detection-main\dataset2/train/images
+val: G:\Fall-Detection-main2\Fall-Detection-main\dataset2/valid/images
+test: G:\Fall-Detection-main2\Fall-Detection-main\dataset2/test/images
+
+nc: 10
+names: ['1', 'Fallen Person', 'Falling', 'Kneeling', 'Sitting', 'Sleeping', 'Standing', 'Unknown', 'fall', 'not fall']
+
+roboflow:
+  workspace: jacky-wpjdx
+  project: lying-kn2e1-syxtd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jacky-wpjdx/lying-kn2e1-syxtd/dataset/1
